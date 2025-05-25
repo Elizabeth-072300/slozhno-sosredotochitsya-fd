@@ -108,7 +108,6 @@
 
 .header_pseudo_element {
   visibility: var(--header_pseudo_element-visibility);
-  display: block;
   position: absolute;
   display: flex;
   align-items: center;
