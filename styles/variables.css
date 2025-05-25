@@ -1,4 +1,28 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --black-color-one: #000028;
+  --header-text-color: #000028;
+  --menu-color: #ff0070;
+  --black-color-two: #353430;
+  --light-pink-color: #fff1f7;
+  --pink-color-one: #ffc2e6;
+  --pink-color-two: #ff8dcb;
+  --pink-color-four: #ff0070;
+  --font-family: "IBM Plex mono";
+  --bg-image: url("../images/cover-image-dark.png");
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --purple-text-color-one: #db00ff;
+  --purple-text-color-two: #ff007066;
+  --main-font-size: 18px;
+  --pink-color-three: #f1b2ce;
+  --small-gap: 10px;
+  --normal-gap: 20px;
+  --text-color: var(--pink-color-three);
+  --accent-color: var(--pink-color-four);
+  --title-color: var(--purple-text-color-one);
+  --secondary-color: var(--purple-text-color-two);
+  --bg-color: var(--black-color-one);
+  --accent-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --accent-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header_pseudo_element-visibility: visible;
+}
