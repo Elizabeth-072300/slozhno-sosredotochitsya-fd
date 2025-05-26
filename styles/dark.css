@@ -1,16 +1,16 @@
 :root.theme-dark {
-  --pink-color-three: #F1B2CE;
-  --pink-color-four: #FF0070;
-  --purple-text-color-one: #DB00FF;
-  --purple-text-color-two: #ff007066;
-  --black-color-one: #000028;
+  --pink-text-color: #f1b2ce;
+  --pink-color-accent-color: #ff0070;
+  --purple-head-color-accent: #db00ff;
+  --purple-button-color-accent: #ff007066;
+  --black-color-background: #000028;
   --header-text-color: #000028;
-  --menu-color: #FF0070;
-  --bg-image: url("../images/cover-image-dark.png"); 
-  --text-color: var(--pink-color-three);
-  --accent-color: var(--pink-color-four);
-  --title-color: var(--purple-text-color-one);
-  --secondary-color: var(--purple-text-color-two);
-  --bg-color: var(--black-color-one);
-  --header_pseudo_element-visibility: visible;
+  --menu-color: #ff0070;
+  --bg-image: url("../images/cover-image-dark.png");
+  --text-color: var(--pink-text-color);
+  --accent-color: var(--pink-color-accent-color);
+  --title-color: var(--purple-head-color-accent);
+  --secondary-color: var(--purple-button-color-accent);
+  --bg-color: var(--black-color-background);
+  --header-pseudo-element-visibility: visible;
 }
