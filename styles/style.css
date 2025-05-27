@@ -184,10 +184,6 @@
   gap: 15px;
 }
 
-.why-section__article {
-  gap: 11px;
-}
-
 .list {
   display: grid;
   gap: var(--normal-gap);
